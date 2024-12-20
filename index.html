@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        #p1 {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(background-golden-gradient-black-overlay-abstract-background-black-night-dark-evening-with-space-text-background_661047-8202.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .p2 {
+            background-color: rgba(255, 255, 255, 0.671);
+            margin: 0;
+            text-align: center;
+            position: absolute;
+            right: 30%;
+            top: 30%;
+        }
+        h1 {
+            color: white;
+        }
+        span {
+            color: red;
+        }
+        #p3 {
+            border: 3px solid white;
+            width: 500px;
+            height: 300px;
+            padding: 20px;
+            position: relative;
+        }
+        input[type="submit"] {
+            width: 40%; /* زر أطول */
+            padding: 10px; /* تحسين التصميم */
+            font-size: 16px;
+            background-color: #000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #444;
+        }
+        .footer-options {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .footer-options input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .footer-options a {
+            margin-left: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+        .footer-options a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="p1">
+        <div class="p2">
+            <form id="p3"> 
+                <h1>Account Login</h1>
+                <br><br>
+                <input type="text" placeholder="Username">
+                <br><br>
+                <input type="password" placeholder="Password">
+                <br><br>
+                <input type="submit" value="LOGIN">
+                <div class="footer-options">
+                    <input type="checkbox" id="remember">
+                    <label for="remember" id="p4">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
